@@ -3,7 +3,7 @@
 **NightReady BCN** is a personal project that helps people in Barcelona plan their night out.
 It combines club listings with reviews and practical advice on how to dress, where to pre-drink, and how to get home safely.
 
-This site is built with [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/).
+This site is built with [Astro](https://astro.build/), [TailwindCSS](https://tailwindcss.com/), [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [JSON](https://www.json.org/json-es.html)
 
 ---
 
@@ -41,7 +41,7 @@ public/
 ## 📌 Goals
 
 This project was made to:
-- Practice Astro + TailwindCSS
+- Practice Astro + TailwindCSS + JS + JSON
 - Learn to work with components and data
 - Build a useful and fun web experience
 
