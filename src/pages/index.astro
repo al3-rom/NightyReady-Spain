@@ -1,0 +1,21 @@
+---
+import ClubCard from '../components/ClubCard.astro'  // Importamos el componente
+import clubs from '../data/clubs.json'               // Importamos datos
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NightReady Spain</title>
+  </head>
+  <body class="bg-gray-950 text-white font-sans p-6">
+    <h1 class="text-3xl font-bold mb-4">NightReady Spain</h1>
+    <p class="text-gray-300 mb-6">Encuentra las mejores discotecas, prepárate y vuelve seguro a casa.</p>
+
+    <h2 class="text-2xl font-semibold mb-4">Discotecas destacadas</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {clubs.map(club => <ClubCard club={club} />)}
+    </div>
+  </body>
+</html>

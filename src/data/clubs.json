@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "pacha-barcelona",
+    "name": "Pacha Barcelona",
+    "location": "Barceloneta",
+    "music": ["House", "Techno"],
+    "dressCode": "elegante",
+    "priceRange": "€€",
+    "ageRange": "20-30",
+    "rating": 4.3,
+    "image": "/images/clubs/pacha-barcelona.jpg"
+  }
+]
